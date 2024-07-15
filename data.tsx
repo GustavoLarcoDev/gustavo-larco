@@ -53,14 +53,14 @@ export const dataAboutPage = [
         id: 1,
         title: "CS:50 Harvard Program",
         subtitle: "Computer Science",
-        description: "Associated skills:SQL (Programming Language), JavaScript (Programming Language), Data Structures, Algorithms, Finance, Computer Science, Python (Programming Language), HyperText Markup Language (HTML), Forensic Sciences, Cryptography, C (Programming Language), Resource Management, Cascading Style Sheets (CSS), Security Software",
+        description: "Associated skills: SQL (Programming Language), JavaScript (Programming Language), Data Structures, Algorithms, Finance, Computer Science, Python (Programming Language), HyperText Markup Language (HTML), Forensic Sciences, Cryptography, C (Programming Language), Resource Management, Cascading Style Sheets (CSS), Security Software",
         date: "Jul 2024",
     },
     {
         id: 2,
         title: "Hack Reactor Cooding Bootcamp",
         subtitle: "Galvanize",
-        description: "Improving my skills as a cooder at the best cooding bootcamp that i had ever went, getting the best projects and skills for start applying jobs.",
+        description: "Improving my skills as a coder at the best coding bootcamp I could have ever taken, getting the best projects and skills to start applying for jobs.",
         date: "Feb 2024",
     },
     {
@@ -74,7 +74,7 @@ export const dataAboutPage = [
         id: 4,
         title: "Enviromental Engineer",
         subtitle: "Technical University of Machala",
-        description: "Went to college to my first carrer as a enviromental science in control of quality of water and floor, doing practices for Machala's enviromental department        ",
+        description: "I attended college to kickstart my first carrer as a enviromental scientist in control of the quality of water and floor, doing practices for Machala's enviromental department        ",
         date: "Dec 2019",
     },
 ]
@@ -83,7 +83,7 @@ export const dataCounter = [
     {
         id: 0,
         endCounter: 12,
-        text: "Experiences Month",
+        text: "Months of Experience",
         lineRight: true,
         lineRightMobile: true,
     },
