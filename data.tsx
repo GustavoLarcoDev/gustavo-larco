@@ -96,7 +96,7 @@ export const dataCounter = [
     },
     {
         id: 2,
-        endCounter: 11,
+        endCounter: 13,
         text: "Projects Done",
         lineRight: true,
         lineRightMobile: true,
@@ -176,10 +176,10 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Fearless Front-end",
-        image: "/image-3.jpg",
-        urlGithub: "https://gitlab.com/gustavo.larcoj/fearless-frontend",
-        urlDemo: "#!",
+        title: "Restaurant Danielito",
+        image: "/Restaurant.png",
+        urlGithub: "https://github.com/GustavoLarcoDev/Restaurant_Danielito",
+        urlDemo: "https://danielito.netlify.app/",
     },
     {
         id: 4,
@@ -214,7 +214,7 @@ export const dataPortfolio = [
         title: "Django One-Shot",
         image: "/image-1.jpg",
         urlGithub: "https://gitlab.com/gustavo.larcoj/django-one-shot",
-        urlDemo: "#!",
+        urlDemo: "https://cocktails-7ng2.onrender.com/recipes/w",
     }
 ];
 
