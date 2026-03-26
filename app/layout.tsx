@@ -1,19 +1,17 @@
 import type { Metadata } from "next";
-import { Urbanist } from "next/font/google";
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
+import { Inter } from "next/font/google";
 import "./globals.css";
-
-
 import Navbar from "@/components/navbar";
-import Header from "@/components/header";
 
-const urbanist = Urbanist({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
-  title: "GustavoL Landing Page",
-  description: "Landing page made by Gustavo Larco Dev",
+  title: "Gustavo Larco — Software Engineer & Data Analyst",
+  description:
+    "Software Engineer and Data Analyst specializing in full-stack development with C#, .NET, React, and cloud technologies.",
 };
 
 export default function RootLayout({
@@ -22,10 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={urbanist.className}>
+    <html lang="en" className={inter.variable}>
+      <body className={inter.className}>
         <Navbar />
-        <Header />
         {children}
       </body>
     </html>
